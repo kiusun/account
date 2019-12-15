@@ -25,7 +25,7 @@ apt-get -y install wget curl git rethinkdb android-tools-adb python autoconf aut
 
 echo "Donwloading Node.js, Please Wait..."
 cd /tmp && \
-wget -c https://nodejs.org/dist/v8.6.0/node-v8.14.0.tar.gz \
+wget -c https://nodejs.org/dist/v8.14.0/node-v8.14.0.tar.gz \
 || OwnError "Unable to download Node.js, exit status = " $?
 
 echo "Installing Node.js, Please Wait..."
