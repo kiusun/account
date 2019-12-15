@@ -1,0 +1,3 @@
+echo "Installing Bower, Please Wait..."
+npm install -g bower \
+|| OwnError "Unable to install Bower, exit status = " $?
